@@ -4,9 +4,9 @@ This is an implementation for "Provable Advantage of Curriculum Learning on Pari
 
 ### Contents:
 
-- `token_transformer.py` contains the code of the Transformer model used in the experiments. 
-- `models.py` contains the code for the rest of the models including MLP, mean-field, and mean-field model. 
-- `utilities.py` includes some helper functions for the main file, e.g., computation of Fourier coefficients.  
 - `main.py` is the main file for the experiments.
 - `examples.py` contains the definitions of the tasks used in the paper.  
 - `sample.sh` shows how to use the command prompt to run the experiments
+- `token_transformer.py` contains the code of the Transformer model used in the experiments. 
+- `models.py` contains the code for the rest of the models including MLP and the mean-field model. 
+- `utilities.py` includes some helper functions for the main file.  
